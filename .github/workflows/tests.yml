@@ -2,7 +2,7 @@ name: Test Python App
 
 on:
   push:
-    branches: [ 'dev' ]  # Можно указать конкретные ветки, например ['dev']
+    branches: [ '**' ]  # Можно указать конкретные ветки, например ['dev']
 
 jobs:
   ci:
